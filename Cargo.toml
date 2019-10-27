@@ -1,0 +1,17 @@
+[package]
+name = "netvars-rs"
+version = "0.1.0"
+authors = ["jan"]
+edition = "2018"
+format_macro_bodies = true
+format_strings      = true
+merge_imports       = true
+reorder_impl_items  = true
+reorder_imports     = true
+reorder_modules     = true
+wrap_comments       = true
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "*"
+regex = "*"
